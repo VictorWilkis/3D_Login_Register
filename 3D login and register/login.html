@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Login-Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js"></script>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <h2>LOGIN</h2>
+                    <form action="">
+                        <input type="email" class="input-box" placeholder="Your Email ID" required>
+                        <input type="password" class="input-box" id="password" placeholder="Password" required>
+                        <input type="checkbox" name="" id="" onclick="hideShow()"><span id="password-info">Show Password</span>
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <input type="checkbox" name="" id=""><span>Remember Me</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openRegister()">New User</button>
+                    <a href="">Forgot Password</a>
+                </div>
+                <div class="card-back">
+                    <h2>REGISTER</h2>
+                    <form action="">
+                        <input type="text" class="input-box" placeholder="Your Name" required>
+                        <input type="email" class="input-box" placeholder="Your Email ID" required>
+                        <input type="password" class="input-box" id="password" placeholder="Password" required>
+                        <input type="checkbox" name="" id="" onclick="hideShow()"><span id="password-info">Show Password</span>
+                        <button type="submit" class="submit-btn">CREATE</button>
+                        <input type="checkbox" name="" id=""><span>Remember Me</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">Already have an Account?<span><i class="fas fa-user"></i> Login</span></button>
+                    <a href="">Forgot Password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/style.js"></script>
+</body>
+
+</html>
